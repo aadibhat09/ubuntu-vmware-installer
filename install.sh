@@ -4,7 +4,7 @@ echo -e "\033[0;32m Installing necessary packages"
 sudo apt update
 sudo apt install -y build-essential p7zip-full git
 
-echo Installing VMware
+echo -e "\033[0;32m Installing VMware"
 wget https://softwareupdate.vmware.com/cds/vmw-desktop/ws/17.5.2/23775571/linux/core/VMware-Workstation-17.5.2-23775571.x86_64.bundle.tar
 7z x VMware-Workstation-17.5.2-23775571.x86_64.bundle.tar
 chmod +x VMware-Workstation-17.5.2-23775571.x86_64.bundle
